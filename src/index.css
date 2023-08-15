@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.travel-book {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.travel-book img {
+  max-width:250px;
+  height:350px; /* Adjust image size as needed */
+  margin-right: 20px;
+  border-radius:9px; /* Space between image and content */
+}
+
+.travel-book .content {
+  flex: 1;
+}
+.nav {
+  display: flex;
+  background: #F55A5A;
+  height: 55px;
+  align-items: center;
+  justify-content: center; /* Center items horizontally */
+}
+
